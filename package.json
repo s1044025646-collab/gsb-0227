@@ -1,0 +1,24 @@
+{
+  "name": "vcard-local",
+  "version": "1.0.0",
+  "description": "本地 vCard 4.0 联系人导入导出与多值字段后端（TypeScript + Node.js + SQLite）",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/src/server/main.js",
+    "dev": "tsx src/server/main.ts",
+    "cli": "tsx src/cli.ts",
+    "test": "tsx --test test/*.test.ts",
+    "demo": "tsx scripts/demo.ts",
+    "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\""
+  },
+  "dependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
