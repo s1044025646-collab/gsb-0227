@@ -1,0 +1,20 @@
+BEGIN:VCARD
+VERSION:4.0
+UID:urn:uuid:8f2c4a1e-7b3d-4e9a-9c11-22aa00000001
+FN;PREF=1:欧阳\;御风\n高级研究员（多行显示文本，第二行）
+N:欧阳;御风;文渊;Dr.;博士
+TEL;TYPE=work,voice;PREF=1:+86 10 8888 6666
+TEL;TYPE=home,voice:+86 21 5555 2222
+EMAIL;TYPE=work:ouyang.yufeng@example.test
+EMAIL;TYPE=home:yufeng.private@example.test
+X-HOBBY:古琴;篆刻（分号非分隔，原样保留）
+END:VCARD
+BEGIN:VCARD
+VERSION:4.0
+UID:urn:uuid:8f2c4a1e-7b3d-4e9a-9c11-22aa00000002
+FN:Sasha Müller
+N:Müller;Sasha;;;
+TEL;TYPE=cell:+49 151 1234567
+EMAIL:sasha.mueller@example.test
+NOTE:这是一个非常非常非常非常非常非常非常非常非常非常非常非常非常非常长的中文与English混排备注行用于验证UTF-8按字节折叠时不会把单个汉字或组合字符拆坏abcdefghijklmnopqrstuvwxyz0123456789
+END:VCARD
